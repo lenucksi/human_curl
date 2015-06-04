@@ -24,7 +24,7 @@ from setuptools import Command, setup
 try:
     readme_content = open(os.path.join(os.path.abspath(
         os.path.dirname(__file__)), "README.rst")).read()
-except Exception, e:
+except Exception as e:
     print(e)
     readme_content = __doc__
 
